@@ -52,6 +52,7 @@ def typetransform ( data ):
             data = imp.transform( data )
     return data
 
+
 #delete the data
 data = pd.read_excel('C:\\Users\\310249682\\Documents\\data1.xlsx')
 del data['HISTORY_HYPERTENSION']
